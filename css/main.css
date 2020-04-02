@@ -23,6 +23,32 @@
   animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
+#resumeButton{
+  margin-left: auto;
+  margin-right: 10px;
+  width: 100px;
+  height: 30px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  color: #FFF;
+  text-align: center;
+  border: 2px solid white;
+  padding-top: 10px;
+  border-radius: 0px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 0 0 0 #407b7d;
+          box-shadow: inset 0 0 0 0 #407b7d;
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+#resumeButton:hover{
+  color: white;
+  -webkit-box-shadow: inset 0 50px 0 0 #407b7d;
+          box-shadow: inset 0 50px 0 0 #407b7d;
+  border: solid 2px #407b7d;
+}
+
 @-webkit-keyframes tracking-in-contract-bck {
   0% {
     letter-spacing: 1em;
@@ -196,6 +222,9 @@
     width: 250px;
     padding-top: 10px;
   }
+  #resumeButton{
+    margin-top: -60px;
+  }
 }
 
 @media screen and (min-width: 760px) {
@@ -241,6 +270,10 @@
     font-size: 80px;
     padding-top: 240px;
     margin-left: -160px;
+  }
+
+  #resumeButton{
+    margin-right: 30px;
   }
 }
 
@@ -735,7 +768,7 @@
 #mainFooter #footerNav ul {
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-top: -50px;
+  margin-top: -70px;
   text-align: center;
 }
 }

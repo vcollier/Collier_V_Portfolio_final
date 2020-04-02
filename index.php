@@ -41,16 +41,18 @@ if(isset($_GET['filter'])){
     <main>
       <a href="index" class="hidden"></a>
         <header class="header">
-
           <div id="logoCon">
             <img src="images/Logo.png" alt="logo">
+            <a href="images/resume.pdf" id="resumeButton">My Resume</a>
                   </div>
+          
                   <div id="header-info">
                   <div id="girl-img"></div>
 
                   <h2>Hey.</h2>
                   <h3> I'm Victoria</h3>
                   <div id="thought"></div>
+            
                 </div>
                 </header>
 
@@ -144,6 +146,7 @@ if(isset($_GET['filter'])){
         <nav id="footerNav">
             <h2 class="hidden">Footer Navigation</h2>
                 <ul>
+                  <li><a href="images/resume.pdf">My Resume</a></li>
                     <li><a href="#index">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#product-item">Portfolio</a></li>

@@ -2,13 +2,13 @@
 class Database
 {
     // Note: specify your own database credentials
-    private $host = "us-cdbr-iron-east-01.cleardb.net";
+    private $host = "localhost";
 
-    private $db_name = "heroku_c06c12684d2871c";
+    private $db_name = "db_portfolio";
 
-    private $username = "badb029223087e";
+    private $username = "root";
 
-    private $password = "ad14a668";
+    private $password = "root";
 
     private static $instance = null;
     public $conn;
