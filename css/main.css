@@ -602,7 +602,11 @@
   }
 }
 
-
+#port-title{
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
 
 @media screen and (min-width: 625px) {
   #port-title{
